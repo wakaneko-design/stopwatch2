@@ -47,6 +47,7 @@ class ViewController: UIViewController {
         timer.invalidate() //無効にする
         count = 0.0 //0.0を代入
         label.text = String(format: "%.2f", count)
+        hanteiLabel.text = "---"
     }
     
     
